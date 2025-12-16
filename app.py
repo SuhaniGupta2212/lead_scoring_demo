@@ -6,7 +6,7 @@ st.set_page_config(page_title="Lead Scoring Dashboard", layout="wide")
 st.title("🔬 3D In-Vitro Lead Generation Dashboard")
 
 # Load data
-df = pd.read_csv("leads.csv", index_col=0)
+df = pd.read_csv("leads.csv")
 
 # Scoring logic
 def calculate_score(row):
